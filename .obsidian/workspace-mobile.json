@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d4456fe38a1d5d3e",
+        "id": "8cd4f63710754e04",
         "type": "tabs",
         "children": [
           {
-            "id": "cdc1d7b287215385",
+            "id": "dbbb59f955fc30a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -112,6 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Test.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -156,6 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -165,8 +167,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "cdc1d7b287215385",
+  "active": "dbbb59f955fc30a6",
   "lastOpenFiles": [
-    "Test.md"
+    "2026-07-17.md",
+    "Test.md",
+    "Untitled.canvas",
+    "Untitled",
+    "Untitled 1.md",
+    "Untitled.md"
   ]
 }
