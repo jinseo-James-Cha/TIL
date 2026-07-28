@@ -1,3 +1,3 @@
 # Today I Learned
-- cs: computer science basics
+- CS: computer science basics
 - DSA: Data structures and algorithms
