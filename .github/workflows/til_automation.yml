@@ -1,0 +1,58 @@
+name: TIL PDF Automation
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Computer-science/**/*.pdf'
+      - 'Data-structure-and-algorithm/**/*.pdf'
+      - 'System-design/**/*.pdf'
+
+permissions:
+  contents: write
+
+jobs:
+  update-til:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 이전 커밋과의 diff를 확인하기 위해 전체 히스토리 필요
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Get changed files
+        id: changed-files
+        run: |
+          # 현재 푸시에서 추가/변경된 파일 목록을 추출
+          if [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            FILES=$(git ls-tree -r --name-only HEAD)
+          else
+            FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          fi
+          # 환경 변수로 스크립트에 전달하기 위해 저장
+          echo "files=$FILES" >> $GITHUB_ENV
+
+      - name: Run automation script
+        run: |
+          python .github/scripts/update_til.py ${{ env.files }}
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add *.md
+          
+          # 변경사항이 있을 경우에만 커밋
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "docs: Auto-update TIL markdown for $(date +'%Y-%m-%d')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
