@@ -6,6 +6,7 @@
 <summary><b>📅 2026-08-16</b></summary>
 
 ### DSA
+- [MST-Prim](Data-structure-and-algorithm/MST-Prim.pdf)
 - [MST-Kruskal](Data-structure-and-algorithm/MST-Kruskal.pdf)
 
 </details>
