@@ -3,6 +3,14 @@
 <!-- TIL START -->
 
 <details open>
+<summary><b>📅 2026-08-16</b></summary>
+
+### DSA
+- [MST-Kruskal](Data-structure-and-algorithm/MST-Kruskal.pdf)
+
+</details>
+
+<details>
 <summary><b>📅 2026-08-14</b></summary>
 
 ### DSA
