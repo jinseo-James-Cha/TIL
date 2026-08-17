@@ -3,6 +3,14 @@
 <!-- TIL START -->
 
 <details open>
+<summary><b>📅 2026-08-17</b></summary>
+
+### System Design
+- [2.framework](System-design/2.framework.pdf)
+
+</details>
+
+<details>
 <summary><b>📅 2026-08-16</b></summary>
 
 ### DSA
