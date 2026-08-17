@@ -33,7 +33,7 @@
 <summary><b>📅 2026-08-11</b></summary>
 
 ### System Design
-- [Basic Structure](System-design/Basic-structure.pdf)
+- [Basic Structure](0.Basic-structure.pdf)
 
 </details>
 
