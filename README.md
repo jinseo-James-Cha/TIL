@@ -73,7 +73,7 @@
 <summary><b>📅 2026-08-06</b></summary>
 
 ### Computer Science
-- [Structure](Computer-science/Structure.pdf)
+- [Structure](2.Structure.pdf)
 
 </details>
 
@@ -81,7 +81,7 @@
 <summary><b>📅 2026-08-05</b></summary>
 
 ### Computer Science
-- [Context](Computer-science/Context.pdf)
+- [Context](0.Context.pdf)
 
 </details>
 
@@ -89,6 +89,8 @@
 <summary><b>📅 2026-08-04</b></summary>
 
 ### Computer Science
-- [Computer Information](Computer-science/Computer-information.pdf)
+- [Computer Information](1.Computer-information.pdf)
 
 </details>
+
+![[5.Secondary-storage.pdf]]
