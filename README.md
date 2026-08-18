@@ -100,5 +100,3 @@
 - [Computer Information](1.Computer-information.pdf)
 
 </details>
-
-![[5.Secondary-storage.pdf]]
