@@ -3,6 +3,14 @@
 <!-- TIL START -->
 
 <details open>
+<summary><b>📅 2026-08-21</b></summary>
+
+### DSA
+- [Kadane-Subarray](Data-structure-and-algorithm/Kadane-Subarray.pdf)
+
+</details>
+
+<details>
 <summary><b>📅 2026-08-18</b></summary>
 
 ### System Design
