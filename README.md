@@ -3,6 +3,14 @@
 <!-- TIL START -->
 
 <details open>
+<summary><b>📅 2026-08-26</b></summary>
+
+### System Design
+- [3.Rate-limiter-2](System-design/3.Rate-limiter-2.pdf)
+
+</details>
+
+<details>
 <summary><b>📅 2026-08-21</b></summary>
 
 ### DSA
