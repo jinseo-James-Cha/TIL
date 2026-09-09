@@ -1,4 +1,4 @@
-# 📚 Today I Learned (TIL)
+# 📚 TIL (Today I Learned)
 
 <!-- TIL START -->
 
