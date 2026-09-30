@@ -3,6 +3,14 @@
 <!-- TIL START -->
 
 <details open>
+<summary><b>📅 2026-09-30</b></summary>
+
+### DSA
+- [Quick_sort_randomized](Data-structure-and-algorithm/Quick_sort_randomized.pdf)
+
+</details>
+
+<details>
 <summary><b>📅 2026-08-26</b></summary>
 
 ### System Design
