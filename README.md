@@ -6,6 +6,7 @@
 <summary><b>📅 2026-09-30</b></summary>
 
 ### DSA
+- [Merge_sort](Data-structure-and-algorithm/Merge_sort.pdf)
 - [Quick_sort_randomized](Data-structure-and-algorithm/Quick_sort_randomized.pdf)
 
 </details>
