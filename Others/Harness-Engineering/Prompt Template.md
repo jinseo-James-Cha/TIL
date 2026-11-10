@@ -38,5 +38,10 @@ Task-list.md를 요청하여 작업목록을 체크박스로하여 진행상황�
 
 
 
-
+Quiz
+- What is the main purpose of the request form pattern? -> to clearly limit the scope of the changes
+- Why specify what will not be done in the request? -> to prevent unnecessary modifications
+- what are the three stages divided using ‘plan mode’ ? -> Judgement, Approval, Work
+- What is the biggest advantage of breaking work into small units? -> to coordinate the risk of the failure scope
+- What is the primary purpose of checkbox-based task list management? -> to visually manage the progress of the work
 
