@@ -14,12 +14,12 @@ Claude 의 Claude.md나 다른 세팅들은 “권고사항”이였다. 그 말
 	Hook event        실행 시점.       활용 예시
 - SessionStart -               세션 시작.                Git 상태 불러오기(fetch, pull..)
 - UserPromptSubmit.      프롬프트 제출.         요청 전 검증
-- PreToolUse
-- PostToolUse
-- PermissionRequest
-- Stop
-- SubagentStop
-- PreCompact
+- PreToolUse                      도구 실행 직전.       위험한 명령어 차단.                    
+- PostToolUse.                  도구 실행 직후.         자동 포매팅
+- PermissionRequest.       권한 요청 직전.       권한 처리
+- Stop.                                Claude 응답종료.    테스트 및 완료 검증
+- SubagentStop.              Subagent작업종료.  결과 검증
+- PreCompact.                  컨텍스트 압축 직전.    중요 정보 백업
 
 
 
